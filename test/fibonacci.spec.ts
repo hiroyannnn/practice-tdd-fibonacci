@@ -1,0 +1,7 @@
+import { fib } from "../src/fibonacci";
+
+describe("FibonacciTest", () => {
+  it("fib", () => {
+    expect(fib(0)).toBe(0);
+  });
+});
